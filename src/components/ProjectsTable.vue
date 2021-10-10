@@ -18,16 +18,25 @@ export default {
     parametersTable1() {
       return {
         data: users,
-        actionMode: "multiple",
-        columnKeys: [
-          "name",
-          "email",
-          "gender",
-          "country",
-          "job",
-          "city",
-          "created_at",
-        ],
+        actionMode: "single",
+        actions: ["view"],
+        columns: [
+          {
+            key: "projectName",
+            title: "Project Name",
+          },
+          { key: "punctuation" },
+          { key: "invalid" },
+          {
+            key: "comments",
+            title: "Jury comments",
+            sortable: false,
+          },
+          {
+            key: "link",
+            sortable: false,
+          }
+        ]
       };
     },
   },
