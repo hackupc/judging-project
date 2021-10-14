@@ -96,6 +96,7 @@ export default {
   border: 2px solid #e94662;
   border-radius: 20px;
   width: 30%;
+  height: fit-content;
   font-family: Montserrat, sans-serif;
 
   .card__title {
