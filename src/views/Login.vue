@@ -1,6 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This will be the login page</h1>
+  <div class="login">
     <LoginForm />
   </div>
 </template>
@@ -13,4 +12,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+.login {
+  margin-top: 100px;
+}
+</style>

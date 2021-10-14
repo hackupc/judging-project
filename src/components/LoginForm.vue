@@ -37,6 +37,7 @@ export default {
   width: 50%;
   height: fit-content;
   font-family: Montserrat, sans-serif;
+  margin: 0 auto;
 
   img {
     width: 30%;
