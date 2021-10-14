@@ -151,6 +151,7 @@ export default {
     .card__textarea-group--input {
       padding: 8px 10px;
       width: 80%;
+      height: 100px;
       border-radius: 10px;
       border: 1px solid black;
       margin-bottom: 12px;
@@ -173,11 +174,11 @@ export default {
     padding: 10px 30px;
     cursor: pointer;
     font-size: 20px;
-  }
 
-  .card__submit-button:hover {
-    font-weight: bold;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.57);
+    &:hover {
+      font-weight: bold;
+      box-shadow: 2px 2px rgba(0, 0, 0, 0.57);
+    }
   }
 }
 </style>
