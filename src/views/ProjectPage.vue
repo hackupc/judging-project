@@ -1,6 +1,6 @@
 <template>
   <div class="back-button">
-    <button class="back-button__button">Back to all projects</button>
+    <a class="back-button__button" href="/">Back to all projects</a>
   </div>
   <div class="information">
     <ProjectInformation />
@@ -35,6 +35,12 @@ export default {
     padding: 10px 30px;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;
+
+    &:hover {
+      font-weight: bold;
+      box-shadow: 2px 2px rgba(0, 0, 0, 0.57);
+    }
   }
 }
 </style>
